@@ -2,7 +2,7 @@
   "name": "code_editor",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://jithender04.github.io/fiddle",
+  "homepage": "http://jithender04.github.io/code_editor",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
     "@fortawesome/free-solid-svg-icons": "^5.14.0",
