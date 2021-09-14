@@ -13,12 +13,17 @@ body {
     25%
   );
 }
-
 .pane {
   height: 50vh;
   display: flex;
 }
-
+@media (max-width: 750px) {
+  .pane {
+    height: 140vh;
+    display: flex;
+    flex-direction: column;
+  }
+}
 .editor-container {
   flex-grow: 1;
   flex-basis: 0;
