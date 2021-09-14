@@ -1,5 +1,5 @@
 let CACHE_NAME =
-  'codepen-clone';
+  'code-editor';
 let urlsToCache = [
   '/',
   '/completed',
@@ -55,7 +55,7 @@ self.addEventListener(
   'activate',
   (event) => {
     let cacheWhitelist = [
-      'codepen-clone',
+      'code-editor',
     ];
     event.waitUntil(
       caches
