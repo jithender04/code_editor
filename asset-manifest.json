@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/fiddle/static/css/main.6cfc4c50.chunk.css",
+    "main.js": "/fiddle/static/js/main.19f31485.chunk.js",
+    "main.js.map": "/fiddle/static/js/main.19f31485.chunk.js.map",
+    "runtime-main.js": "/fiddle/static/js/runtime-main.f3dceab1.js",
+    "runtime-main.js.map": "/fiddle/static/js/runtime-main.f3dceab1.js.map",
+    "static/css/2.21216002.chunk.css": "/fiddle/static/css/2.21216002.chunk.css",
+    "static/js/2.784606ba.chunk.js": "/fiddle/static/js/2.784606ba.chunk.js",
+    "static/js/2.784606ba.chunk.js.map": "/fiddle/static/js/2.784606ba.chunk.js.map",
+    "index.html": "/fiddle/index.html",
+    "precache-manifest.8b3e7c5d52ed92f33d8fa10c3516c1ae.js": "/fiddle/precache-manifest.8b3e7c5d52ed92f33d8fa10c3516c1ae.js",
+    "service-worker.js": "/fiddle/service-worker.js",
+    "static/css/2.21216002.chunk.css.map": "/fiddle/static/css/2.21216002.chunk.css.map",
+    "static/css/main.6cfc4c50.chunk.css.map": "/fiddle/static/css/main.6cfc4c50.chunk.css.map",
+    "static/js/2.784606ba.chunk.js.LICENSE.txt": "/fiddle/static/js/2.784606ba.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f3dceab1.js",
+    "static/css/2.21216002.chunk.css",
+    "static/js/2.784606ba.chunk.js",
+    "static/css/main.6cfc4c50.chunk.css",
+    "static/js/main.19f31485.chunk.js"
+  ]
+}
