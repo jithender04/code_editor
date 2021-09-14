@@ -1,5 +1,5 @@
 let CACHE_NAME =
-  'code-editor';
+  'code_editor';
 let urlsToCache = [
   '/',
   '/completed',
