@@ -6,77 +6,62 @@ body {
   width: 100%;
   height: 100%;
 }
-.top-pane {
-  background-color: hsl(
-    225,
-    6%,
-    25%
-  );
-}
-.pane {
-  height: 50vh;
+.top {
+  background-color: black;
   display: flex;
+  flex-direction: row;
 }
-@media (max-width: 750px) {
-  .pane {
-    height: 140vh;
-    display: flex;
-    flex-direction: column;
-  }
+.ace_scrollbar {
+  width: 15px !important;
 }
+
 .editor-container {
   flex-grow: 1;
-  flex-basis: 0;
   display: flex;
   flex-direction: column;
   padding: 0.5rem;
-  background-color: hsl(
-    225,
-    6%,
-    25%
-  );
 }
-
-.editor-container.collapsed {
-  flex-grow: 0;
+.ace_scrollbar-h {
+  overflow-x: hidden !important;
 }
-
-.editor-container.collapsed
-  .CodeMirror-scroll {
-  position: absolute;
-  overflow: hidden !important;
+.ace_gutter {
+  background-color: rgb(29, 31, 33) !important;
+  color: rgb(50, 51, 52) !important ;
 }
-
-.expand-collapse-btn {
-  margin-left: 0.5rem;
-  background: none;
-  border: none;
-  color: white;
-  cursor: pointer;
-}
-
 .editor-title {
   display: flex;
-  justify-content: space-between;
-  background-color: hsl(
-    225,
-    6%,
-    13%
-  );
-  color: white;
-  padding: 0.5rem 0.5rem
-    0.5rem 1rem;
-  border-top-right-radius: 0.5rem;
-  border-top-left-radius: 0.5rem;
+  width: fit-content;
+  font-weight: bolder;
+  background-color: rgb(29, 31, 33);
+  color: rgb(170, 174, 188);
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
 }
-
-.CodeMirror {
-  height: 100% !important;
+.editor-title img {
+  width: 18px;
+  height: 18px;
+  padding-right: 7px;
 }
-
-.code-mirror-wrapper {
+.ace-editor-wrapper {
   flex-grow: 1;
   border-bottom-right-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
   overflow: hidden;
+  width: unset !important;
+  height: unset !important;
+}
+
+.gutter {
+  background-color: #e5e7eb;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.gutter.gutter-horizontal {
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAeCAYAAADkftS9AAAAIklEQVQoU2M4c+bMfxAGAgYYmwGrIIiDjrELjpo5aiZeMwF+yNnOs5KSvgAAAABJRU5ErkJggg==');
+  cursor: col-resize;
+}
+
+.gutter.gutter-vertical {
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAFAQMAAABo7865AAAABlBMVEVHcEzMzMzyAv2sAAAAAXRSTlMAQObYZgAAABBJREFUeF5jOAMEEAIEEFwAn3kMwcB6I2AAAAAASUVORK5CYII=');
+  cursor: row-resize;
 }
