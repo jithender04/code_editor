@@ -45,7 +45,7 @@ const Aceeditor = (props) => {
         // maxLines={30}
         showPrintMargin={false}
         showGutter={true}
-        highlightActiveLine={false}
+        highlightActiveLine={true}
         editorProps={{ $blockScrolling: true }}
         setOptions={{
           enableBasicAutocompletion: true,
